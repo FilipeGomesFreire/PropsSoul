@@ -1,0 +1,49 @@
+/* Reset padrão para remover margens e preenchimentos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.mobile-screen {
+  width: 100vw; /* Largura igual à largura da viewport */
+  height: 100vh; /* Altura igual à altura da viewport */
+  max-width: 414px; /* Largura máxima para dispositivos móveis maiores */
+  max-height: 896px; /* Altura máxima para dispositivos móveis maiores */
+  background-color: #4caf50;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+}
+
+.mobile-screen h1 {
+  margin-bottom: 10px;
+}
+
+.mobile-screen p {
+  font-size: 16px;
+}
