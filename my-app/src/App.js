@@ -6,8 +6,23 @@ function App() {
     <div className="container">
       <div className="mobile-screen">
         <h1>Mobile Screen</h1>
-        <p>This is a responsive mobile screen.</p>
+        <BigSquare />
       </div>
+    </div>
+  );
+}
+
+function BigSquare() {
+  return (
+    <div className="big-square">
+      <div id="square-1" className="small-square"></div>
+      <div id="square-2" className="small-square"></div>
+      <div id="square-3" className="small-square"></div>
+      <div id="square-4" className="small-square"></div>
+      <div id="square-5" className="small-square"></div>
+      <div id="square-6" className="small-square"></div>
+      <div id="square-7" className="small-square"></div>
+      <div id="square-8" className="small-square"></div>
     </div>
   );
 }
