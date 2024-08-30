@@ -50,8 +50,8 @@ body {
 
 /* Quadrado maior */
 .big-square {
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
   background-color: #333;
   position: relative;
   margin-top: 20px;
